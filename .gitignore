@@ -1,0 +1,19 @@
+# ==========================================
+# Frontend / Next.js Ignore Rules
+# ==========================================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# ==========================================
+# Data Pipeline / Python Ignore Rules
+# ==========================================
+data_pipeline/.venv/
+data_pipeline/food_desert/
+data_pipeline/__pycache__/
+data_pipeline/**/*.pyc
+data_pipeline/.env
+
+# Ignore the raw downloaded or compiled cache data directories
+data_pipeline/data/
